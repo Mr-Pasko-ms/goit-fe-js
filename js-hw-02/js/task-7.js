@@ -8,7 +8,7 @@ const isLoginValid = function (login) {
 };
 
 const isLoginUnique = function (allLogins, login) {
-  for (i = 0; i < allLogins.length; i += 1) {
+  for (let i = 0; i < allLogins.length; i += 1) {
     if (allLogins.includes(login)) {
       return false;
     }

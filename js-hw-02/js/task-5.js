@@ -1,7 +1,7 @@
 const dangerWords = ['spam', 'sale'];
 
 function checkForSpam(str) {
-  for (i = 0; i < dangerWords.length; i += 1) {
+  for (let i = 0; i < dangerWords.length; i += 1) {
     if (str.toLowerCase().includes(dangerWords[i])) {
       return true;
     }

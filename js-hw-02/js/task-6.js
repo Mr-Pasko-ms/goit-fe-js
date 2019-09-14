@@ -15,7 +15,7 @@ while (input !== null) {
 console.log(numbers);
 
 function totalArrayNumbers(array) {
-  for (i = 0; i < array.length; i += 1) {
+  for (let i = 0; i < array.length; i += 1) {
     total += Number(array[i]);
   }
   return `Общая сумма чисел равна - ${total}`;
