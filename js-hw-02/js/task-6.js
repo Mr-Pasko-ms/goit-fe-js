@@ -11,13 +11,11 @@ while (input !== null) {
     alert('Введено некорректное число!');
   }
 }
-
 console.log(numbers);
-
 function totalArrayNumbers(array) {
   for (let i = 0; i < array.length; i += 1) {
     total += Number(array[i]);
   }
-  return `Общая сумма чисел равна - ${total}`;
+  console.log(`Общая сумма чисел равна - ${total}`);
 }
 totalArrayNumbers(numbers);
